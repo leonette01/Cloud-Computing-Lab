@@ -17,4 +17,4 @@ Deploy the LAMP stack on your instance.
 
 Transfer files: FileZilla (Links to an external site)
 
-Optional: Set up DNS mapping.
+*Optional:* Set up DNS mapping.
