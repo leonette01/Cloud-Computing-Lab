@@ -1,6 +1,7 @@
 # Cloud-Computing-Lab
 
-** Executing Software-as-a-Service
+* Executing Software-as-a-Service
+
 The task is to create a simple website (i.e., CV or personal website) and deploy in on a Google Cloud virtual machine (VM).
 
 
