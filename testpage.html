@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>main page</title>
+        <meta name="viewport" content="width=device-width, initial-scale = 1">
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: "Century Gothic", sans-serif;
+            }
+            body {
+                background-color: black;
+                overflow: hidden;
+            }
+            .nav-items {
+                float: right;
+                list-style: none;
+                padding: 2% 2% 0 0;
+            }
+            label {
+                color: white;
+                font-size: 40px;
+                padding: 2% 0 0 5%;
+                float: left;
+            }
+            .nav-items li {
+                display: inline-block;
+            }
+            .nav-items li a {
+                color: white;
+                padding: 5px 40px;
+                font-size: 20px;
+                text-decoration: none;
+            }
+            .nav-items li a:hover {
+                color: black;
+                cursor: pointer;
+                background-color: white;
+                border-radius: 8px;
+            }
+            .content {
+                color: white;
+                padding: 20% 30%;
+                text-align: center;
+            }
+            .content > h1 {
+                font-size: 60px;
+                text-align: center;
+            }
+            button {
+                border: 1px solid rgb(0, 148, 0);
+                border-radius: 10px;
+                padding: 10px;
+                margin: 20px;
+                font-size: 15px;
+                cursor: pointer;
+                color: white;
+                background-color: black;
+            }
+            button:hover {
+                background-color: rgb(0, 148, 0);
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <label for="">ITCS</label>
+            <ul class="nav-items">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Become a member!</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1>ITCS</h1>
+            <p>Welcome to the ITCS website.</p>
+            <p>Although new, we are here to stay!</p> <br>
+            <p>This website seeks to provide all the necessary information you need so you can better understand what we do.</p>
+
+            <button>Fancy Button!</button>
+        </div>
+    </body>
+</html>
