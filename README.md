@@ -15,6 +15,6 @@ Installing Ubuntu 20.03 operating system.
 
 Deploy the LAMP stack on your instance.
 
-Transfer files: FileZilla (Links to an external site.)
+Transfer files: FileZilla (Links to an external site)
 
 Optional: Set up DNS mapping.
